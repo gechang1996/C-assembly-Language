@@ -1,0 +1,36 @@
+ARM GAS  /tmp/cc9ZhMxh.s 			page 1
+
+
+   1              	# 1 "first.S"
+   1              	@
+   1              	...
+   0              	
+   0              	
+   1              	/* Copyright (C) 1991-2014 Free Software Foundation, Inc.
+   2              	@My first assembly language program
+   3              	@ Name: Chang Ge 
+   4              	@
+   5              	
+   6              	.text
+   7              	.global first
+   8              	.global second
+   9              	first:
+  10 0000 0010A0E1 	  mov r1, r0
+  11 0004 010080E0 	  add r0, r0, r1
+  12 0008 010080E0 	  add r0, r0, r1
+  13 000c 1EFF2FE1 	  bx lr
+  14              	
+  15              	
+  16              	second:
+  17 0010 010080E0 	  add r0, r0, r1
+  18 0014 1EFF2FE1 	  bx lr
+ARM GAS  /tmp/cc9ZhMxh.s 			page 2
+
+
+DEFINED SYMBOLS
+             first.S:9      .text:00000000 first
+             first.S:16     .text:00000010 second
+             first.S:10     .text:00000000 $a
+                   .debug_aranges:0000000c $d
+
+NO UNDEFINED SYMBOLS

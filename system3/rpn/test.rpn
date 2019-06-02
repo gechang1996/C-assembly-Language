@@ -1,0 +1,27 @@
+#This is a comment
+# print should say ** empty **
+print
+# pushes one number onto the stack and prints
+0100101111
+print
+# pushes another number, ands, and prints the result
+1111101001
+&
+print
+# stack now has only 0100101001 in it
+0011001111
+|
+print
+pop
+0111000000
+0000100110
+1101000001
+1000101111
+print
+|
+print
+|
+print
+&
+print
+exit
